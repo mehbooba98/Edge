@@ -1,0 +1,12 @@
+Upload Flat File(*.csv) into table: 
+1. Create Project
+2. Control Flow
+2.1 Take Execute SQL Task
+2.2 Make Connection to Northwind database (Server name, Database name)
+2.3 Type query to truncate table in which importing data from csv file (Table: Region, Region.csv)
+3. Drag and drop Data flow Task on control flow and link SQL task to it.
+4. Double click on Data Flow task it will take you to Data Flow tab
+5. Select Flat File Source from Other Sources and drop at Data Flow tab
+5.1 Double Click on Flat File Source to make connection, select New and Browse the file loation
+6. use Data conversion task if you need it otherwise select "OLE DB Destination" from Other Destinations
+
